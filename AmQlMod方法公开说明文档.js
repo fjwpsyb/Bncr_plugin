@@ -145,4 +145,8 @@ module.exports = async s => {
     // let { status, data } = await AmTool.jdCodeToUrl('');
     // // 隐藏pin 保留前1 后 1
     // let userName = AmTool.Masking('', 1, 1),
+
+    // 获取青龙token api
+    const token = await QlMod.GetQlDbToken(qlDbArr, i)
+    console.log(token);
 }
