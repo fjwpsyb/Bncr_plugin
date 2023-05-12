@@ -46,3 +46,9 @@
 
 - 小熊 
   https://github.com/hsl6476/Bncr_plugins
+
+- Dswang
+  https://github.com/callacat/BncrJS_plugins
+- 
+- 给我一颗麦丽素
+  https://github.com/dandanainiyo/bncr_plugins.git
