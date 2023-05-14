@@ -1,0 +1,46 @@
+/**
+ * @author Doraemon
+ * @name 青龙配置文件备份
+ * @origin 红灯区
+ * @version v1.0.0
+ * @description 青龙配置文件备份
+ * @rule ^(青龙配置文件备份)$
+ * @admin true
+ * @public false
+ * @priority 666666
+ * @cron 0 0 8 * * * 
+  说明：
+    1、在红灯区同级目录创建一个文件夹，名字随意 如：自用插件
+
+       青龙配置文件备份.js 放到自用插件中
+
+    2、设置 qlNum 执行面板 对应红灯区奶酪棒位置，从0开始
+
+    3、新建 public/Doraemon/青龙配置文件备份.txt
+
+  ----------------------
+
+  注意：
+   2、无界超授可用
+   3、自用插件
+  ----------------------
+
+  功能：
+    1、每日定时备份青龙配置文件数据，防止配置文件丢失。
+  ----------------------
+
+  更新日志：
+      v1.0.0 插件上线
+*/
+const ql = require('./mod/ql');
+const Doraemon_tool = require('./mod/Doraemon_tool');
+
+// 需要备份的面板 默认0 多个用,分割
+const qlNum = [0];
+
+//插件入口
+module.exports = async s => {
+    /** Code Encryption Block[419fd178b7a37c9eae7b7426c4a0420338762e13dd42892bd1e6d0752e1abe47bc4cd705e966d9cc8492c509aff222e4150d7775f8bc85064dc2238919f65e6f62bb4591939e19e706767077d6d544382c78f79cfc54025a13f17b3f5a635ece38234c6c0c65169311eae5ec455844481774098ce6f107c640240f4a382a4a07a5a25d5219903b067320459f6b26f21ccff2ad8a5d56a4c804a0ac8decb3bf1a6ccbfa3ff73f3d8f068998cbe986a7fc73f08eb68d94ea5dc3541367071d97258c87460182cf0f4ef2b71dbc4abedf94f8758e0de7be2a9afe2e5cf8129d963033f2cdc4144f99475319d1300f5eafb77cb3e1b595247c6ad2dff30db6a10c97d2c4a4b5e5ec32a9e6c450220fc2d0bbbbfac331bcf83eb926046559413441e94cd4b28aaf566d414ec33a6cb14344fc556c1d072715134a13bcb42a885251ffbb1054a057f4a6451c6260c9f61c819e3cff1d643ac5bed367a3712a5e214c443f82efae4e337a11b6069b8ed0672a37b607790152b4e85575b1c8bcff361760eda674afee9ea15d4f0393788bded75929a670b4a399d73a9586c72f17f853ad255d76e0643fd75c039c91f1ee9b181f36b77897dba1449c1c4d9ad3df2e9ae55eb65a587cac3ef702938f06bb540e3041a3fc25e76810b678ceca14cb8915d795d7ad5d14be65d7aebbf8c894f36a888b8aa4db556b662cda29e34937fc686bc34450c43bc4f53b19ea828e1d7b9f21855a9c8439dd9bb28c003951e93a511bc1ddc45df2f0af755e4b142092907ea846f3e3e87af961cefd7c0dcfada215009ac0eb486567cf961e33e9dcf725a6eab0dd6d6b1a705204a2bfcbb6fc5ab11d5055c72c669929c600fc1cdea0bda112b7644c3aee7cc4caccba24618ea7366c90be494c8cd5a5343e4daa92f959f9e6efd1937255f9d0b2f6ee51d2fdedf237b4cca6e8a084d816d091808409d9d7a19dfbe6c07198b2f39a9cf0f1b2eedea4fab32219854999d747530111bcc03340757bfa1fbdae2baa848d11e02c429c80ecf4d234081363c98e2f43072c4e4f3a5e90ba6b69c9dba96630051241c824b756a598554e247ae2789325a04999267b253b86f981ba58af91add6fc159150053e98a859aef64f18afe5b5e99869810c88b9b14674210f4f60d44b2c418a19b0cce1cdb1a70a5aeabe063c95a8fba68def3cbefcbeb59225d5d8450b6a48df7f9370a93e11852da0db7085f4edfd31bd2d28f7e7173bcce9f75b276d0d49d2742d9829757c75f197e93a9834337cb55fa708b6c174df898040920e2a226a85e8306fda6a499a440ff31cf609bf1948b3ad73fdeda05a45326b289b86a9c7fa5d] */
+};
+ 
+
