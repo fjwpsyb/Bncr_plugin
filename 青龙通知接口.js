@@ -120,12 +120,14 @@
 */
 
 const AmTool = require("./mod/AmTool");
+/* 设置你的服务端token */
+const setToken = 'ayuN6udTMI0rWGUb';
 
 /** 自定义配置 */
 const Doraemon_tool = require('../自用插件/mod/Doraemon_tool');
 const wx_active_tool = require('../自用插件/mod/wx_active_tool');
 const db = new BncrDB('Doraemon');
-const token = await db.get('qinglongNotifyAPI_token', '');
+
 
 // 内容中匹配到的规则不记录消息
 const filterLogsByPattern = /不是豆子或积分太少不跑了|礼包已经不存在|活动不存在|活动已结束|奖品已发完|京豆计划余额不足|activityUrl不存在|活动已过期|已屏蔽|活动已经结束|垃圾或领完|豆太少了|需要开卡跳过|您的开卡时间未在活动设置时间内|不是会员无法参加/;
@@ -200,7 +202,6 @@ const titleRegexMap = {
 /* post接口 */
 router.post('/api/qinglongMessage', (req, res) => {
     try {
-      
         const { title, message, token } = req?.body;
         if (token !== setToken) return res.send({ code: 400, data: '', msg: '青龙BncrToken与Bncr setToken不一致' });
         /* 标题 */
