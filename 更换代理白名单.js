@@ -17,14 +17,14 @@
     2、设置品易 neek  appkey 
         set Doraemon py_neek xxxx
         set Doraemon py_appkey xxxx
-        是否开启品易更换
-        set Doraemon pyFlag xxx
+        开启品易更换（默认false）
+        set Doraemon pyFlag true
     
     3、设置巨量 业务id 和 订单key
         设置 订单号id  set Doraemon jl_tradeNo xxx
         设置 订单号key set Doraemon jl_tradeKey xxx
-        是否开启巨量更换
-        set Doraemon jlFlag xxx
+        开启巨量更换（默认false）
+        set Doraemon jlFlag true
 
 
   更新日志
