@@ -1,9 +1,9 @@
 /**
  * @author Doraemon
- * @name 一键推送
+ * @name 一键通知
  * @origin 红灯区
  * @version 1.0.0
- * @description 一键推送
+ * @description 一键通知
  * @rule ^(一键推送) ([\s\S]+) ([\s\S]+)
  * @admin true
  * @public false
@@ -11,7 +11,7 @@
  * @disable false
   说明：
     1、在红灯区同级目录创建一个文件夹，名字随意 如：自用插件 和 public
-        一键推送.js 放到自用插件下
+      一键通知.js 放到自用插件下
 
     2、触发示例
         一键推送 D 开卡啦，开冲
