@@ -54,3 +54,6 @@
 
 - 给我一颗麦丽素
   https://github.com/dandanainiyo/bncr_plugins.git
+
+- VICTOR LI
+  https://github.com/victorli-cn/Bncr_plugins.git
