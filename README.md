@@ -34,26 +34,37 @@
 一个啥也不会的混子。
 
 # 友情链接
-- 无界官网
-  https://anmours.github.io/Bncr/#/
+## 无界官网
+### [官网地址](https://anmours.github.io/Bncr/#/)
 
-- 红灯区插件
-  https://github.com/RedLightsDistrict/Bncr_plugins.git
+## 红灯区插件
+### [仓库地址](https://github.com/RedLightsDistrict/Bncr_plugins.git)
 
-- onz3vyyds 
-  https://github.com/Yuheng0101/Bncr_plugins
+## onz3vyyds
+### [仓库地址](https://github.com/Yuheng0101/Bncr_plugins)
 
-- 薛定谔的大灰机 
-  https://github.com/BigPlanes/Bncr_plugins
+## 薛定谔的大灰机
+### [仓库地址](https://github.com/BigPlanes/Bncr_plugins)
 
-- 小熊 
-  https://github.com/hsl6476/Bncr_plugins
+## 小熊
+### [仓库地址](https://github.com/hsl6476/Bncr_plugins)
 
-- Dswang
-  https://github.com/callacat/BncrJS_plugins
+## Dswang
+### [仓库地址](https://github.com/callacat/BncrJS_plugins)
 
-- 给我一颗麦丽素
-  https://github.com/dandanainiyo/bncr_plugins.git
+## 给我一颗麦丽素
+### [仓库地址](https://github.com/dandanainiyo/bncr_plugins.git)
 
-- VICTOR LI
-  https://github.com/victorli-cn/Bncr_plugins.git
+## VICTOR LI
+### [仓库地址](https://github.com/victorli-cn/Bncr_plugins.git)
+
+## DusKing
+### [仓库地址](https://github.com/DusKing1/Bncr_plugin.git)
+
+### 插件列表
+|插件名称|功能|当前版本|
+| ----------- | ----------- | ------------ |
+| [重启光猫.js](https://github.com/DusKing1/Bncr_plugin/blob/master/%E9%87%8D%E5%90%AF%E5%85%89%E7%8C%AB.js)   | 通过HASS重启光猫 |1.0.0|
+| [超级重拨.js](https://github.com/DusKing1/Bncr_plugin/blob/master/%E8%B6%85%E7%BA%A7%E9%87%8D%E6%8B%A8.js) |   |1.0.0|
+| [获取当前IP.js ](https://github.com/DusKing1/Bncr_plugin/blob/master/%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8Dip.js) |   |1.0.0|
+| [493重拨超级魔改版 ](https://github.com/DusKing1/Bncr_plugin/blob/master/493%E9%87%8D%E6%8B%A8%E6%A3%80%E6%B5%8B.js) |控制493重新拨号|1.0.0|
