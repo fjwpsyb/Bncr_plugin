@@ -68,3 +68,6 @@
 | [超级重拨.js](https://github.com/DusKing1/Bncr_plugin/blob/master/%E8%B6%85%E7%BA%A7%E9%87%8D%E6%8B%A8.js) |   |1.0.0|
 | [获取当前IP.js ](https://github.com/DusKing1/Bncr_plugin/blob/master/%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8Dip.js) |   |1.0.0|
 | [493重拨超级魔改版 ](https://github.com/DusKing1/Bncr_plugin/blob/master/493%E9%87%8D%E6%8B%A8%E6%A3%80%E6%B5%8B.js) |控制493重新拨号|1.0.0|
+
+## 烟烟烟烟烟雨啊！！！
+### [仓库地址](https://github.com/yanyuwangluo/Bncr_plugins)
