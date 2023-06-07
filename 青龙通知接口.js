@@ -229,8 +229,7 @@ const titleRegexMap = {
 /* post接口 */
 router.post('/api/qinglongMessage', async (req, res) => {
     try {
-        const system = new BncrDB('Doraemon');
-        const setToken = await system.get('qinglongNotifyAPI_token', null);
+        const setToken = await db.get('qinglongNotifyAPI_token', null);
         if (!setToken) return res.send({ code: 401, data: '', msg: '未设置token，拒绝访问' });
         const { title, message, token } = req?.body;
         if (token !== setToken) return res.send({ code: 400, data: '', msg: '青龙BncrToken与Bncr setToken不一致' });
