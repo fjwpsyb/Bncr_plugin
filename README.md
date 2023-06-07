@@ -33,9 +33,9 @@
 
 一个啥也不会的混子。
 
-# 友情链接
+# 友情链接（排名不分先后）
 - 无界官网
-  https://anmours.github.io/Bncr/#/
+  https://anmours.github.io/Bncr
 
 - 红灯区插件
   https://github.com/RedLightsDistrict/Bncr_plugins.git
