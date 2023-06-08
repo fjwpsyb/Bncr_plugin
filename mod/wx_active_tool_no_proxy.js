@@ -3,17 +3,15 @@
  * @version v1.1.3
  * @author Doraemon
  * @origin 红灯区
- * @description 无线城活动api工具类
+ * @description 无线城活动api工具类（这个是没有使用代理的）
  * @public false
  
   说明：
     1、在红灯区同级目录创建一个文件夹，名字随意 如：自用插件
        在自用插件下创建一个文件夹  mod
         wx_active_tool.js 放到mod下
-    2、请先设置代理地址 set Doraemon jdWxProxy xxx
-        我目前使用的巨量 每日免费1000个ip https://www.juliangip.com/user/reg?inviteCode=1006398
-    3、使用的bncr内置sign
-    4、支持全局黑名单 set Doraemon jd_wx_back_list xxx，多个使用&连接
+    2、使用的bncr内置sign
+    3、支持全局黑名单 set Doraemon jd_wx_back_list xxx，多个使用&连接
   ----------------------
 
   注意：
