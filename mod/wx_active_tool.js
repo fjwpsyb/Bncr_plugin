@@ -43,6 +43,7 @@
       2023.6.11 v1.1.4 增加interactsaasUserInfo interactsaasCronMain
       2023.6.14 v1.1.5 部分功能优化
       2023.6.16 v1.1.6 部分功能优化
+      2023.6.16 v1.1.7 增加 wxShareAddCronMain
  */
 
   const request = require('request');
