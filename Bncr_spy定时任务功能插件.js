@@ -2,7 +2,7 @@
  * @author Doraemon
  * @name Bncr_spy定时任务功能插件
  * @origin 红灯区
- * @version 1.2.3
+ * @version 1.2.4
  * @description Bncr_spy定时任务相关功能插件
  * @rule ^(定时) (\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}) (https:\/\/[A-Za-z0-9\-\._~:\/\?#\[\]@!$&'\*\+,%;\=]*)
  * @rule ^(定时) (\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}) (export[ ]{1}[^ ]+[ ]*=[ ]*"{1}([^ "]+)"{1})
@@ -29,7 +29,7 @@
           定时 57 41 11 9 5 * https://www.baidu.com
         或
           定时 57 41 11 9 5 * export a="b"
-        
+
         检索定时任务 抽奖 （检索 抽奖 这个别名所对应的key或者符合规则的链接 的定时任务）
         检索定时任务 M_WX_LUCK_DRAW_URL（检索 M_WX_LUCK_DRAW_URL 所对应的key或者符合规则的链接 的定时任务）
         检索定时任务 all （检索所有）
@@ -56,7 +56,7 @@
       set Doraemon bncr_spyNotifyAPI_notificationPlatform xxxxx
 
       设置发送群聊还是用户（默认值：userId 可选值：groupId）
-      set Doraemon qinglongNotifyAPI_toGroupOrUser xxxx
+      set Doraemon bncr_spyNotifyAPI_toGroupOrUser groupId
 
       设置最近定时任务 时间阈值 默认12小时
       set Doraemon bncr_spyNotifyAPI_nearbyScheduleThreshold xxx
@@ -109,6 +109,7 @@
       2023.6.3  v1.2.1 新增 命令 删除定时任务，请看触发示例
       2023.6.3  v1.2.2 新增管理员命令权限限制
       2023.7.9  v1.2.3 优化定时成功通知逻辑，新增配置 qinglongNotifyAPI_toGroupOrUser，同步更新Doraemon_tool类
+      2023.7.12 v1.2.4 修复注释错误 qinglongNotifyAPI_toGroupOrUser 纠正为 bncr_spyNotifyAPI_toGroupOrUser
       TODO 定时任务分布
 */
 const Doraemon_tool = require('./mod/Doraemon_tool');
