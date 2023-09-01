@@ -38,7 +38,7 @@
         set Doraemon wireless_shopCheckIn_cleanup_regex 该活动已经结束|活动已结束|该活动已经不存在|签满7天后不能再参加了|该活动已经不存在
 
       （必填）对应的脚本
-        set Doraemon wireless_shopCheckIn_cleanup_script SuperManito_cishanjia_main/jd_wxSign.js
+        set Doraemon wireless_shopCheckIn_cleanup_script KingRan_KR/jd_sevenDay.js
 
       （必填）需要被扫描的文档
         set Doraemon wireless_shopCheckIn_cleanup_url xxx
