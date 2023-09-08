@@ -1,6 +1,6 @@
 /**
  * @name wx_active_tool
- * @version v1.3.6
+ * @version v1.3.7
  * @author Doraemon
  * @origin 红灯区
  * @description 无线城活动api工具类
