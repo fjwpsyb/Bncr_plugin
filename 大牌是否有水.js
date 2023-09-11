@@ -2,15 +2,14 @@
  * @author Doraemon
  * @name 大牌是否有水
  * @origin 红灯区
- * @version 1.0.0
+ * @version 1.0.1
  * @rule ^(自动化监控大牌是否有水)$
  * @description 自动化监控大牌是否有水
  * @admin true
  * @public false
  * @disable true
  * @priority 1000
- * @cron *\/10 * * * * *
- * 
+ *
   说明：
     1、在红灯区同级目录创建一个文件夹，名字随意 如：自用插件
 
@@ -34,6 +33,7 @@
 
   更新日志：
       v1.0.0 插件上线
+      v1.0.1 插件下线
  */
 
 const ql = require('./mod/ql');
