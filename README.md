@@ -30,6 +30,7 @@
 - 京东口令url互转.js
 - redis连通性.js 测试redis是否链接正常
 - Doraemon_用户消息推送.js 通过奶酪棒与用户的绑定关系，进行消息的推送
+- Doraemon_变量替换.js 变量替换，变量同步
 
 # 参与
 
