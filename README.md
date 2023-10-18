@@ -73,3 +73,6 @@
 
 - 寒寒
   https://github.com/djun90/hh_bncr_plugins
+
+- Aeorq（Bncr_spy的监控配置）
+  https://github.com/Aeorq/bncrspy
