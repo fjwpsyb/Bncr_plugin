@@ -74,5 +74,8 @@
 - 寒寒
   https://github.com/djun90/hh_bncr_plugins
 
+- Mrzqd (qq频道适配器)
+  https://github.com/Mrzqd/Bncr_pulgins
+
 - ~~Aeorq（Bncr_spy的监控配置）~~
   ~~https://github.com/Aeorq/bncrspy~~
