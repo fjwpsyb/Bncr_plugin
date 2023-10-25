@@ -10,7 +10,7 @@
  * @service true
  */
 
-/* 
+/*
   说明：
     1、这是红灯区插件，基于红灯区插件进行的二开 （author Doraemon）
 
@@ -19,7 +19,7 @@
       青龙脚本日志.txt
       明日继续活动.txt
       超级无线店铺签到记录.txt
-    
+
     3、设置一些变量
        (必填) 设置服务端接口的token，这个跟青龙配置文件设置的通知token要一致
       set Doraemon qinglongNotifyAPI_token xxxxx
@@ -58,14 +58,14 @@
 
   功能：
    1、支持记录所有青龙脚本日志到本地文件，方便排查 ，文件最大10M，超过会自动清空。 （已实现）
-   
+
    2、支持记录指定脚本活动未开始的日志到本地文件，方便设置定时 （已实现）
-      目前支持：（后续会逐渐完善） 
-          M关注抽奖 
+      目前支持：（后续会逐渐完善）
+          M关注抽奖
           M等级/生日礼包
-          M幸运抽奖 
-          M加购有礼 
-          M无线游戏 
+          M幸运抽奖
+          M加购有礼
+          M无线游戏
           M打豆豆
           M读秒手速
           M分享有礼
@@ -95,13 +95,13 @@
           M积分兑换
 
    5、针对活动详情日志处理
-      目前支持：（后续会逐渐完善） 
+      目前支持：（后续会逐渐完善）
           M分享有礼：1人，2京豆 分享有豆提示
           M组队瓜分：组满 + 是京豆的
 
       支持：通过设置正则在这个基础上过滤掉已结束的活动信息（不设置不影响，设置了就会根据关键词过滤）
         set Doraemon qinglongNotifyAPI_no_processActivity_regex 活动已结束
-        
+
 
    6、添加定时功能 都是内联执行 Bncr_spy定时任务功能插件.js 自动添加定时任务
   ----------------------
@@ -109,7 +109,7 @@
   更新日志：
       v1.0.0 插件上线
       2023.5.8 v1.0.1 修复插件加载异常bug
-      2023.5.8 v1.0.2 新增 M积分兑换规则 / M老虎机抽奖 规则 
+      2023.5.8 v1.0.2 新增 M积分兑换规则 / M老虎机抽奖 规则
                       新增 京豆通知阈值
                       新增 活动详情有豆子的时候发送通知，如M分享有礼
                       新增 变量解释注释
@@ -168,7 +168,7 @@
 const Doraemon_tool = require('../自用插件/mod/Doraemon_tool');
 const wx_active_tool = require('../自用插件/mod/wx_active_tool');
 const redis_config = require('../自用插件/mod/Doraemon_config').config;
-const redis_tool = require('../自用插件/mod/redis_tool_two');
+const redis_tool = require('../自用插件/mod/redis_tool');
 
 /* post接口 */
 router.post('/api/qinglongMessage', async (req, res) => {
