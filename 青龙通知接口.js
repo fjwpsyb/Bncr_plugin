@@ -176,7 +176,7 @@
 const Doraemon_tool = require('../自用插件/mod/Doraemon_tool');
 const wx_active_tool = require('../自用插件/mod/wx_active_tool');
 const redis_config = require('../自用插件/mod/Doraemon_config').config;
-const redis_tool = require('../自用插件/mod/redis_tool_two');
+const redis_tool = require('../自用插件/mod/redis_tool');
 
 /* post接口 */
 router.post('/api/qinglongMessage', async (req, res) => {
