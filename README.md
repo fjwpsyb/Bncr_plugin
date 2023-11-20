@@ -27,12 +27,12 @@
 - Doraemon_ck检测.js，ck有效性实时检测并通过奶酪棒绑定关系推送消息给用户。
 - Doraemon_JD_WSCK转换.js，调用nolan pro 转换api接口。
 - Doraemon_青龙相关备份.js，定时备份青龙配置文件，防止因读写频繁导致配置文件丢失。
-- 更换代理白名单.js，代理更换白名单，支持品易、巨量等。
+- Doraemon_更换代理白名单.js，代理更换白名单，支持品易、巨量等。
+- Doraemon_redis连通性.js 测试redis是否链接正常。
 - 青龙通知接口.js，通过青龙面板日志推送做一些事情。
 - Bncr_spy定时任务功能插件.js，与Bncr_spy 定时任务的交互的功能插件。
 - 一键通知.js，通过配置目标自定义名称 和 userId，达到针对单个人 或多个人 发送消息的功能。
 - 京东口令url互转.js
-- redis连通性.js 测试redis是否链接正常。
 
 # 参与
 
