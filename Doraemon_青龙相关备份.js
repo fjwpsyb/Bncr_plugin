@@ -2,7 +2,7 @@
  * @author Doraemon
  * @name Doraemon_青龙相关备份
  * @origin 红灯区
- * @version v1.0.6
+ * @version v1.0.7
  * @description 青龙配置文件、ck备份
  * @rule ^(青龙配置文件备份|青龙ck备份|青龙ck还原|青龙配置文件检测)$
  * @admin true
