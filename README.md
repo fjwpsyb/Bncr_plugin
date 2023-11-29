@@ -82,5 +82,8 @@
 - Mrzqd (qq频道适配器)
   https://github.com/Mrzqd/Bncr_pulgins
 
+- Merrick （企业微信适配器）
+  https://github.com/Merrickk/Bncr_plugins/tree/main
+
 - ~~Aeorq（Bncr_spy的监控配置）~~
   ~~https://github.com/Aeorq/bncrspy~~
