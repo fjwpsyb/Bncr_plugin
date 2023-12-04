@@ -32,6 +32,8 @@
 - Doraemon_redis连通性.js 测试redis是否链接正常。
 - Doraemon_续费插件.js 用户续费的一些相关功能插件。
 - Doraemon_ql方法公开说明文档.js，Doraemon_ql api 说明文档
+- Doraemon_端口扫描.js，扫描端口是否开放。
+- Doraemon_h5st服务.js，h5st服务接口。
 - 青龙通知接口.js，通过青龙面板日志推送做一些事情。
 - Bncr_spy定时任务功能插件.js，与Bncr_spy 定时任务的交互的功能插件。
 - 一键通知.js，通过配置目标自定义名称 和 userId，达到针对单个人 或多个人 发送消息的功能。
