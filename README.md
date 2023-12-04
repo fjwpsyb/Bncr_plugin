@@ -50,44 +50,21 @@
 一个啥也不会的混子。
 
 # 友情链接（排名不分先后）
-- 无界官网
-  https://anmours.github.io/Bncr
 
-- 红灯区插件
-  https://github.com/RedLightsDistrict/Bncr_plugins.git
+| 名称 | 链接 | 描述  |
+| ---- | ---- |-----|
+| 无界官网 | [https://anmours.github.io/Bncr](https://anmours.github.io/Bncr) | -   |
+| 红灯区插件 | [https://github.com/RedLightsDistrict/Bncr_plugins.git](https://github.com/RedLightsDistrict/Bncr_plugins.git) | -   |
+| onz3vyyds | [https://github.com/Yuheng0101/Bncr_plugins](https://github.com/Yuheng0101/Bncr_plugins) | -   |
+| 薛定谔的大灰机 | [https://github.com/BigPlanes/Bncr_plugins](https://github.com/BigPlanes/Bncr_plugins) | -   |
+| 小熊 | [https://github.com/hsl6476/Bncr_plugins](https://github.com/hsl6476/Bncr_plugins) | -   |
+| Dswang | [https://github.com/callacat/BncrJS_plugins](https://github.com/callacat/BncrJS_plugins) | -   |
+| 给我一颗麦丽素 | [https://github.com/dandanainiyo/bncr_plugins.git](https://github.com/dandanainiyo/bncr_plugins.git) | -   |
+| VICTOR LI | [https://github.com/victorli-cn/Bncr_plugins.git](https://github.com/victorli-cn/Bncr_plugins.git) | -   |
+| DusKing | [https://github.com/DusKing1/Bncr_plugin.git](https://github.com/DusKing1/Bncr_plugin.git) | -   |
+| 烟烟烟烟烟雨啊！！！ | [https://github.com/yanyuwangluo/Bncr_plugins](https://github.com/yanyuwangluo/Bncr_plugins) | -   |
+| 寒寒 | [https://github.com/djun90/hh_bncr_plugins](https://github.com/djun90/hh_bncr_plugins) | -   |
+| Mrzqd | [https://github.com/Mrzqd/Bncr_pulgins](https://github.com/Mrzqd/Bncr_pulgins) | qq频道适配器  |
+| Merrick | [https://github.com/Merrickk/Bncr_plugins/tree/main](https://github.com/Merrickk/Bncr_plugins/tree/main) | 企业微信适配器  |
+| ~~Aeorq~~ | ~~[https://github.com/Aeorq/bncrspy](https://github.com/Aeorq/bncrspy)~~ | Bncr_spy的监控配置   |
 
-- onz3vyyds
-  https://github.com/Yuheng0101/Bncr_plugins
-
-- 薛定谔的大灰机
-  https://github.com/BigPlanes/Bncr_plugins
-
-- 小熊
-  https://github.com/hsl6476/Bncr_plugins
-
-- Dswang
-  https://github.com/callacat/BncrJS_plugins
-
-- 给我一颗麦丽素
-  https://github.com/dandanainiyo/bncr_plugins.git
-
-- VICTOR LI
-  https://github.com/victorli-cn/Bncr_plugins.git
-
-- DusKing
-  https://github.com/DusKing1/Bncr_plugin.git
-
-- 烟烟烟烟烟雨啊！！！
-  https://github.com/yanyuwangluo/Bncr_plugins
-
-- 寒寒
-  https://github.com/djun90/hh_bncr_plugins
-
-- Mrzqd (qq频道适配器)
-  https://github.com/Mrzqd/Bncr_pulgins
-
-- Merrick （企业微信适配器）
-  https://github.com/Merrickk/Bncr_plugins/tree/main
-
-- ~~Aeorq（Bncr_spy的监控配置）~~
-  ~~https://github.com/Aeorq/bncrspy~~
