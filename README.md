@@ -67,3 +67,10 @@
 | Merrick | [https://github.com/Merrickk/Bncr_plugins/tree/main](https://github.com/Merrickk/Bncr_plugins/tree/main) | 企业微信适配器                          |
 | ~~Aeorq~~ | ~~[https://github.com/Aeorq/bncrspy](https://github.com/Aeorq/bncrspy)~~ | Bncr_spy的监控配置                    |
 
+# 部分功能展示
+
+## Doraemon_返利插件.js
+
+![rebatePlugin_one.png](resources/img/rebatePlugin_one.png)
+
+![rebatePlugin_two.png](resources/img/rebatePlugin_two.png)
