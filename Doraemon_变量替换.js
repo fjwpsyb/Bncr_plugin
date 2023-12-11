@@ -37,9 +37,9 @@
         jd_lzkj_10040_qrqd_Ids
         jd_wxFansInterActionActivity_activityId
 
-    3、支持替换指定变量 （已实现）
+    3、支持同步变量，主容器的变量 abcd，同步到分容器，实现同步效果 （已实现）
       代码示例：
-        const data = await ql.getQlConfigCustomValue(Host, tokenObj, [
+        const data = await ql.getQlConfigCustomValue(Host, tokenObj, [  
           { name: 'M_WX_PROXY_URL'},
           { name: 'M_WX_STOP_KEYWORD'},
           { name: 'M_WX_NOT_LUCK_DRAW_LIST'},
@@ -48,6 +48,13 @@
           { name: 'M_WX_NOT_TEAM_LIST'},
           ...
         ]);
+
+        await updateSignData(data, 1, '测试签到替换', {
+          M_WX_PROXY_URL: 'M_WX_PROXY_URL',
+          xxxx: 'xxxx',
+          ...
+        });
+        
         await updateSignData(data, 2, '测试签到替换', {
           M_WX_PROXY_URL: 'M_WX_PROXY_URL',
           xxxx: 'xxxx',
