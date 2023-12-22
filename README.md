@@ -33,8 +33,8 @@
 | Doraemon_检测ck重复.js        | 检测有效ck是否重复。                                                                     | ✅      |                    |
 | Doraemon_返利插件.js          | 支持京东、淘宝、拼多多、美团、唯品会、抖音返利的相关插件，可转链，可查询，可监听指定群组，转发解析或者转链发到指定群组                     | ✅      |                    |
 | Doraemon_GeminiChatBot.ts | google ai gemini chatBot                                                                                | ✅      | >= 1.8.2           |
+| Doraemon_定时任务功能插件.js       | 与Bncr_spy 定时任务的交互的功能插件。                                                         | ✅      | >= 1.8.2 |
 | 青龙通知接口.js                 | 通过青龙面板日志推送做一些事情，具体看插件注释。                                                        | ❌      |                    |
-| Bncr_spy定时任务功能插件.js       | 与Bncr_spy 定时任务的交互的功能插件。                                                         | ✅      |                    |
 | 一键通知.js                   | 通过配置目标自定义名称 和 userId，达到针对单个人 或多个人 发送消息的功能。                                      | ✅      |                    |
 | 京东口令url互转.js              | 东东口令 url 互相转化                                                                   | ✅      |                    |
 | 登录.js                     | 支持 nolanPro (扫码登录、口令登录、Mck短信登录)，rabbitPro（扫码登录、口令登录、Mck短信登录），qrabbit(扫码登录、口令登录) | ❌      |                    |
