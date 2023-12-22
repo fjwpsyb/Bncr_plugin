@@ -75,3 +75,5 @@
 ![rebatePlugin_one.png](resources/img/rebatePlugin_one.png)
 
 ![rebatePlugin_two.png](resources/img/rebatePlugin_two.png)
+
+![rebatePlugin_two.png](resources/img/rebatePlugin_three.jpg)
