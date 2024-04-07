@@ -2,7 +2,7 @@
  * @author Doraemon
  * @name Doraemon_ql方法公开说明文档
  * @origin 红灯区
- * @version v1.0.2
+ * @version v1.0.3
  * @description ql api方法公开说明文档
  * @rule ^(Doraemon_ql方法公开说明文档)$
  * @admin true
@@ -28,6 +28,7 @@
       2024.1.7 v1.0.1 新增 qlModUpdateEnv() 解释
       2024.1.8 v1.0.2 新增 getQlScripts() 解释
                       新增 updateQlScripts() 解释
+      2024.4.7 v1.0.3 更新 update_QL_Cron方法，增加执行前，执行后参数
  */
 
 const ql = require('./mod/Doraemon_ql');
@@ -41,7 +42,7 @@ module.exports = async s => {
   /**
    * 获取青龙host，tokenObj，以及新旧版本的id，是_id 还是 id
    * @param {*} qlNum 奶酪棒的面板管理数据，索引从0开始，0代表第一个账号，1代表第二个账号，以此类推
-   * @returns
+   * @returns 
    */
   const [host, tokenObj, versionId] = await Doraemon_tool.getQlHostAndToken(0);
   log.debug(host, tokenObj, versionId);
@@ -66,22 +67,25 @@ module.exports = async s => {
 
   /**
    * 更新定时任务
+   * 2024.4.7   更新传参，方便后续动态支持多种参数 新增task_before task_after
    * @param {*} host host
    * @param {*} token token
    * @param {*} id 定时任务id
    * @param {*} name 任务名称
    * @param {*} command 脚本路径
    * @param {*} schedule 定时cron
-   * @returns
+   * @param {*} task_after 执行前
+   * @param {*} task_before 执行后
+   * @returns 
    */
-  await ql.update_QL_Cron (host, tokenObj, 'P1bQBbU7GvsaFh1', '任务名称', '脚本路径', '定时cron', versionId)
+  await ql.update_QL_Cron (host, tokenObj, {_id: 'P1bQBbU7GvsaFh1', name: '任务名称', command: '脚本路径', schedule: '定时cron', versionId, task_after: '222', task_before: '1'})
 
   /**
    * 启动青龙任务
    * @param {*} host host
    * @param {*} token tokenObj
    * @param {*} body id数组 ['xxx','xxxx']
-   * @returns
+   * @returns { code: 200 }
    */
   await ql.start_QL_Crons(host, tokenObj, ['P1bQBbU7GvsaFh1']);
 
@@ -90,7 +94,7 @@ module.exports = async s => {
    * @param {*} host host
    * @param {*} token tokenObj
    * @param {*} body id数组 ['xxx','xxxx']
-   * @returns
+   * @returns 
    */
   await ql.stopQlCrons(host, tokenObj, ['P1bQBbU7GvsaFh1']);
 
@@ -99,7 +103,7 @@ module.exports = async s => {
    * @param {*} host host
    * @param {*} token token
    * @param {*} body body.command body.schedule body.name
-   * @returns
+   * @returns 
    */
   await ql.addQlCron(host, tokenObj, {command: '', schedule: '', name: ''});
 
@@ -122,7 +126,7 @@ module.exports = async s => {
    * @param {*} token tokenObj
    * @param {*} id 环境变量的id值
    * @param {*} body fromIndex 从哪个索引移动 toIndex 移动到哪个索引
-   * @returns
+   * @returns 
    */
   await ql.moveEnvPosition(host, tokenObj, 'P1bQBbU7GvsaFh1', {
     "fromIndex": 0,
@@ -134,7 +138,7 @@ module.exports = async s => {
    * @param {*} host host
    * @param {*} token token
    * @param {*} idArr id数组 ['xxx','xxxx']
-   * @returns
+   * @returns 
    */
   await ql.removeEnvs(host, tokenObj, ['P1bQBbU7GvsaFh1']);
 
@@ -143,7 +147,7 @@ module.exports = async s => {
    * @param {*} host host
    * @param {*} token token
    * @param {*} body body [{"value": "变量值","name": "变量名","remarks": "备注"}]
-   * @returns
+   * @returns 
    */
   await ql.add_QL_Envs(host, tokenObj, [{"value": "变量值","name": "变量名","remarks": "备注"}]);
 
@@ -161,7 +165,7 @@ module.exports = async s => {
    * @param {*} host host
    * @param {*} token token
    * @param {*} body body.value：值 body.name：名称 body.remarks：备注
-   * @returns
+   * @returns 
    */
   await ql.update_QL_Env(host, tokenObj, {
     "value": '',
@@ -175,7 +179,7 @@ module.exports = async s => {
    * @param {*} host host
    * @param {*} token token
    * @param {*} body id 数组 [0,1,2]
-   * @returns
+   * @returns 
    */
   await ql.enable_QL_Env(host, tokenObj, ['P1bQBbU7GvsaFh1']);
 
@@ -184,7 +188,7 @@ module.exports = async s => {
    * @param {*} host host
    * @param {*} token token
    * @param {*} body id 数组 [0,1,2]
-   * @returns
+   * @returns 
    */
   await ql.disable_QL_Env(host, tokenObj, ['P1bQBbU7GvsaFh1']);
 
@@ -196,7 +200,7 @@ module.exports = async s => {
    * @param {*} token token
    * @param {*} filename 文件名
    * @param {*} content 内容
-   * @returns
+   * @returns 
    */
   await ql.update_QL_Config(host, tokenObj, 'config.sh', '内容');
 
@@ -205,7 +209,7 @@ module.exports = async s => {
    * @param {*} host host
    * @param {*} token token
    * @param {*} envs 需要替换的变量数据 [{name: 'test', value: '666'}]
-   * @returns
+   * @returns 
    */
   await ql.modify_QL_Config(host, tokenObj, envs);
 
@@ -214,18 +218,18 @@ module.exports = async s => {
    * @param {*} host host
    * @param {*} token token
    * @param {*} filename 文件名
-   * @returns
+   * @returns 
    */
   await ql.get_QL_Config(host, tokenObj, 'config.sh')
 
   /**
    * 获取青龙配置文件中指定key数据
-   * @param {*} host
-   * @param {*} token
+   * @param {*} host 
+   * @param {*} token 
    * @param {*} variableArr key [{name: 'test'}] 数组
-   * @returns
+   * @returns 
    */
-  await ql.getQlConfigCustomValue (host, tokenObj, [
+  await ql.getQlConfigCustomValue (host, tokenObj, [  
     { name: 'test'},
   ])
 
@@ -240,14 +244,14 @@ module.exports = async s => {
 
 
   // --------------------- 脚本相关 ---------------------
-
+  
   /**
    * 获取青龙脚本详情
    * @param {*} host host
    * @param {*} token token
    * @param {*} filename 文件名 例：CK_WxPusherUid.json
    * @param {*} path 脚本路径 相对于 scripts的相对路径 例如 a目录
-   * @returns
+   * @returns 
    */
   await getQlScripts(host, tokenObj, 'CK_WxPusherUid.json', '');
 
@@ -256,7 +260,7 @@ module.exports = async s => {
    * @param {*} host host
    * @param {*} token tokenObj
    * @param {*} body { "filename": "", "path": "", "content": "" }
-   * @returns
+   * @returns 
    */
   await updateQlScripts(host, tokenObj, {"filename": "CK_WxPusherUid.json", "path": "a", "content": "我是内容啊"});
 }
