@@ -38,7 +38,8 @@
 | Doraemon_清理购物车.ts         | 东东购物车清理插件                                                    | ✅      | >= 2.0.0           |
 | Doraemon_迁移wxuid.ts       | 将环境变量中的wxuid保存到CK_WxPusherUid.json中                          | ✅      | >= 2.0.0           |
 | Doraemon_人形翻译插件.js        | 针对人形发送出来的消息进行翻译                                              | ✅      | >= 2.0.0           |
-| Doraemon_diss.js        | diss 娱乐                                                      | ✅      | >= 2.0.0           |
+| Doraemon_diss.js          | diss 娱乐                                                      | ✅      | >= 2.0.0           |
+| Doraemon_心喜.js            | 心喜小程序                                                        | ✅      | >= 2.0.0           |
 | 青龙通知接口.js                 | 通过青龙面板日志推送做一些事情，具体看插件注释。                                     | ✅      |  >= 2.0.0  |
 | 一键通知.js                   | 通过配置目标自定义名称 和 userId，达到针对单个人 或多个人 发送消息的功能。                   | ✅      |                    |
 | Doraemon_口令url互转.js       | 东东口令 url 互相转化                                                | ✅      |                    |
