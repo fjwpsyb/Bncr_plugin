@@ -45,7 +45,6 @@
 | 登录.js                     | 原红灯区 登录.js  支持 nolanPro (扫码登录、口令登录、Mck短信登录)，rabbitPro（扫码登录、口令登录、Mck短信登录） | ❌      |   >= 2.0.0  |
 | 查询.js                     | 原红灯区 查询.js  可能需要代理，设置方法查看 mod/wx_active_tool.js                          | ❌      |  >= 2.0.0  |
 | Doraemon_ql方法公开说明文档.js    | Doraemon_ql api 说明文档                                                     | ❌      |                    |
-| Doraemon_羊毛_趣攒米.js            | 一个小羊毛                                                                    | ❌      | >= 2.0.0 |
 
 
 # 参与
