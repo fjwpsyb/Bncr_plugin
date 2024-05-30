@@ -1,3 +1,10 @@
+# 最新情况
+
+> github 已停更，请迁移至无界3.0版本插件市场进行订阅
+> 
+> bncrSub://UpdjUc6jid/ZFkJhEZFTW7g0Y5mwQGTOquKC0qQ3jQT64ov58iu9al29oSMuvxiCTRP7m7nb+GShLeXBM34f5alozVwSO6Rk83p/jSqH458=
+
+
 # Bncr_plugin 简介
 
 自用的无界插件。
