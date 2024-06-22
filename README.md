@@ -2,7 +2,7 @@
 
 > github 已停更，请迁移至无界3.0版本插件市场进行订阅
 > 
-> bncrSub://UpdjUc6jid/ZFkJhEZFTW7g0Y5mwQGTOquKC0qQ3jQT64ov58iu9al29oSMuvxiCTRP7m7nb+GShLeXBM34f5alozVwSO6Rk83p/jSqH458=
+> bncrSub://UpdjUc6jid/ZFkJhEZFTW0zFEYpg7ZPidkatlTM6OSN/bOxWaExKe5VQ14AHsy+0ufSXlKVuOuRYAqkTz7a2Z3dS8aW8mj6O8MsZVFDHMpc=
 
 
 # Bncr_plugin 简介
